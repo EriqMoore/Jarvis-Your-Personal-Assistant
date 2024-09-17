@@ -4,7 +4,7 @@ import wikipedia
 import sounddevice as sd
 import soundfile as sf  # New library to save audio as .wav
 import os
- import numpy as np
+import numpy as np
 
 # Initialize the recognizer and text-to-speech engine
 recognizer = sr.Recognizer()
